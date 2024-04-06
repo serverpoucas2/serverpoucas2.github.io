@@ -1,0 +1,13 @@
+body{
+    background-color: #1a1a22;
+}
+
+.background-img{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-image: url("./img/dirt_grayscale.png");
+    background-repeat: repeat;
+    background-size: 100px;
+    opacity: 12%;
+}
