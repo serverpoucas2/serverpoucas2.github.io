@@ -417,3 +417,16 @@ a{
     height: auto;
     border-radius: 5px;
 }
+
+
+.firstContentLeft{
+    display: flex;
+    justify-content: center;
+}
+
+.firstContentLeftContent{
+    text-align: center;
+    color: white;
+    font-family: arial;
+    margin-top: 75px;
+}
