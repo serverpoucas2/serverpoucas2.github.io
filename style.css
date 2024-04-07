@@ -223,8 +223,36 @@ a{
 
 .poucasNewsContainer{
     width: 100%;
-    height: 500px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
+
+.poucasNewsButton{
+    width: fit-content;
+    height: 400px;
+    /* background-image: url('./img/poucas-news-crop.png');
+    background-repeat: no-repeat;
+    background-size: auto; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .15s;
+}
+
+.poucasNewsButton:hover{
+    cursor: pointer;
+    scale: 1.035;
+    transition: .15s;
+}
+
+.poucasNewsImage{
+    height: 400px;
+}
+
 
 .galeriaContainer{
     width: 100%;
